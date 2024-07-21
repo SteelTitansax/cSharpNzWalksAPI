@@ -54,8 +54,7 @@
               "RelativeToolTip": "NZWalks.API\\Models\\DTO\\UpdateRegionRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T17:20:18.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T17:20:18.992Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "NZWalks.API\\Models\\DTO\\AddRegionRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T17:10:56.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T17:10:56.467Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "NZWalks.API\\Models\\DTO\\RegionDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T16:22:55.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T16:22:55.571Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "NZWalks.API\\Models\\Domain\\Region.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T16:21:27.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T16:21:27.823Z"
             },
             {
               "$type": "Document",
@@ -104,7 +100,7 @@
               "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\RegionsController.cs",
               "ToolTip": "C:\\Users\\titansax\\source\\repos\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "NZWalks.API\\Controllers\\RegionsController.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAswKwAAAAfAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAADwv64AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T13:46:09.694Z",
               "EditorCaption": ""
@@ -119,8 +115,7 @@
               "RelativeToolTip": "NZWalks.API\\Program.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAADwvxsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T11:04:58.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T11:04:58.123Z"
             },
             {
               "$type": "Document",
