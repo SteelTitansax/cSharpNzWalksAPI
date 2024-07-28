@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WFTB+OQO9QH1NEukMXw0wDWGXIFxCcozKXfXgJGF6rhghhIbtfBK8tUdEcH3HXCWg3vFR8JnpTRz4H8J8sOTbg==",
+  "dgSpecHash": "7hGGw9Hx+LqXhAaxWsCwQaeglwOGaYGbBlo/+iOT13CPnc+0SnrH+atU9cr5Fn60JCzqM3RXsuDp6I2JYSy/vg==",
   "success": true,
   "projectFilePath": "C:\\Users\\titansax\\source\\repos\\NZWalks\\NZWalks.API\\NZWalks.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\titansax\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\titansax\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\titansax\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\titansax\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
