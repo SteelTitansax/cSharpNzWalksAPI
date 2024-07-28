@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NZWalks.API.CustomActionFilters;
@@ -29,6 +30,8 @@ namespace NZWalks.API.Controllers
 
         [HttpPost]
         [ValidateModel]
+        [Authorize(Roles = "Writer")]
+        [Authorize(Roles = "ReaderWriter")]
 
         public async Task<IActionResult> Create([FromBody] AddWalkRequestDto addWalkRequestDto) 
         {
@@ -52,6 +55,8 @@ namespace NZWalks.API.Controllers
         // GET: /api/walks?filterOn=Name&filterQuery=Track&SortBy=Name&isAscending=true&pageNumber=1&pageSize=10
 
         [HttpGet]
+        [Authorize(Roles = "Reader")]
+        [Authorize(Roles = "ReaderWriter")]
         public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
             [FromQuery] string? sortBy, [FromQuery] bool? isAscending,
             [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 1000)
@@ -69,6 +74,8 @@ namespace NZWalks.API.Controllers
         // GET: /api/Walks/{id}
         [HttpGet]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Reader")]
+        [Authorize(Roles = "ReaderWriter")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             var walkDomainModel = await walkRepository.GetByIdAsync(id);
@@ -88,6 +95,8 @@ namespace NZWalks.API.Controllers
         [HttpPut]
         [Route("{id:Guid}")]
         [ValidateModel]
+        [Authorize(Roles = "Writer")]
+        [Authorize(Roles = "ReaderWriter")]
 
         public async Task<IActionResult> Update([FromRoute] Guid id, UpdateWalkRequestDto updateWalkRequestDto) 
         {
@@ -112,6 +121,8 @@ namespace NZWalks.API.Controllers
 
         [HttpDelete]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Writer")]
+        [Authorize(Roles = "ReaderWriter")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
             var deletedWalkDomainModel = await walkRepository.DeleteAsync(id);
